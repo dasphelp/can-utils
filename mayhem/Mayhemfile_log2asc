@@ -1,0 +1,5 @@
+project: can-utils
+target: log2asc
+
+cmds:
+  - cmd: /install/bin/log2asc -I @@
