@@ -8,7 +8,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
   ASC2LOG_MAYHEMFILE: Mayhemfile_asc2log
-  LOG2ASC_MAYHEMFILE: /can-utils/mayhem/Mayhemfile_log2asc
+  LOG2ASC_MAYHEMFILE: mayhem/Mayhemfile_log2asc
 
 jobs:
   build:
